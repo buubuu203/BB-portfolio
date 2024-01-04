@@ -1,57 +1,27 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-<<<<<<< HEAD
-import {
-  SV5T,
-  ThuKhoa,
-  TNTT,
-  HoiSV,
-  AISC2023,
-} from "../../assets/Awards/index";
-=======
->>>>>>> 62a8b28a0326ba03670d3467f19fac7f7be3fe26
 import Particle from "../Particle";
 import AwardCard from "./AwardCard";
 
 const AwardArray = [
   {
-<<<<<<< HEAD
-    imgURL: AISC2023,
+    imgURL: "https://i.postimg.cc/50yy2qPP/AISC2023.jpg",
     title: "The winner of Advanced Information Systems Contest 2023",
   },
   {
-    imgURL: SV5T,
+    imgURL: "https://i.postimg.cc/dQz2gL3M/HoiSV.jpg",
     title: "Sinh viên 5 Tốt - Khoa HTTT",
   },
   {
-    imgURL: ThuKhoa,
+    imgURL: "https://i.postimg.cc/nMbhT8n5/SV5T.jpg",
     title: "Top Valedictorian of E-Commerce 2021",
   },
   {
-    imgURL: TNTT,
+    imgURL: "https://i.postimg.cc/Y9P9GGZt/ThuKhoa.jpg",
     title: "Thanh niên tiên tiến làm theo lời Bác",
   },
   {
-    imgURL: HoiSV,
-=======
-    imgURL: "https://i.postimg.cc/x18wwKvJ/AISC2023.jpg",
-    title: "The winner of Advanced Information Systems Contest 2023",
-  },
-  {
-    imgURL: "https://i.postimg.cc/43hrdsFX/SV5T.jpg",
-    title: "Sinh viên 5 Tốt - Khoa HTTT",
-  },
-  {
-    imgURL: "https://i.postimg.cc/50dDQTZL/ThuKhoa.jpg",
-    title: "Top Valedictorian of E-Commerce 2021",
-  },
-  {
-    imgURL: "https://i.postimg.cc/Vkhxmdg7/TNTT.jpg",
-    title: "Thanh niên tiên tiến làm theo lời Bác",
-  },
-  {
-    imgURL: "https://i.postimg.cc/hjL6LMBw/HoiSV.jpg",
->>>>>>> 62a8b28a0326ba03670d3467f19fac7f7be3fe26
+    imgURL: "https://i.postimg.cc/hv7G94RT/TNTT.jpg",
     title: "Giấy khen trong công tác Hội",
   },
 ];

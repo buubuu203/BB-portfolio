@@ -21,8 +21,7 @@ function ProjectCards(props) {
         {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
-
-        {!props.isBlog && props.demoLink && (
+        {!props.isBlog && props.demoLink ? (
           <Button
             variant="primary"
             href={props.demoLink}
@@ -31,6 +30,15 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        ) : (
+          <Button
+            variant="primary"
+            href={props.viewMore}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            {"View More"}
           </Button>
         )}
       </Card.Body>

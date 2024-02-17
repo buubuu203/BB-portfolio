@@ -8,7 +8,7 @@ function AwardCard(props) {
         variant="top"
         src={props.imgURL}
         alt="card-img"
-        style={{ justifySelf: "center", height: 250, width: 300 }}
+        style={{ justifySelf: "center", height: 220, width: 300 }}
       />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

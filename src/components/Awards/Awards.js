@@ -9,19 +9,19 @@ const AwardArray = [
     title: "The winner of Advanced Information Systems Contest 2023",
   },
   {
-    imgURL: "https://i.postimg.cc/dQz2gL3M/HoiSV.jpg",
+    imgURL: "https://i.postimg.cc/nMbhT8n5/SV5T.jpg",
     title: "Sinh viên 5 Tốt - Khoa HTTT",
   },
   {
-    imgURL: "https://i.postimg.cc/nMbhT8n5/SV5T.jpg",
+    imgURL: "https://i.postimg.cc/Y9P9GGZt/ThuKhoa.jpg",
     title: "Top Valedictorian of E-Commerce 2021",
   },
   {
-    imgURL: "https://i.postimg.cc/Y9P9GGZt/ThuKhoa.jpg",
+    imgURL: "https://i.postimg.cc/hv7G94RT/TNTT.jpg",
     title: "Thanh niên tiên tiến làm theo lời Bác",
   },
   {
-    imgURL: "https://i.postimg.cc/hv7G94RT/TNTT.jpg",
+    imgURL: "https://i.postimg.cc/dQz2gL3M/HoiSV.jpg",
     title: "Giấy khen trong công tác Hội",
   },
 ];

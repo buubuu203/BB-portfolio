@@ -16,7 +16,7 @@ function Projects() {
       description:
         "The project that take the 1st rank in Advanced Information Systems Contest 2023",
       ghLink: "https://github.com/thienenpi/EliteFitness",
-      demoLink:
+      viewMore:
         "https://tuyensinh.uit.edu.vn/chung-ket-aisc-2023-giai-nhat-cuoc-thi-goi-ten-doi-double-kill-va-findy?fbclid=IwAR2ITwUFsuCOmMZqbZPUxFM83Kohud0wc5UGcve4oi8i5tqSAp050xiNV7Q",
     },
     {
@@ -26,7 +26,6 @@ function Projects() {
       description:
         "My project of IS207.O13 course at UIT, it's a fullstack E-Commerce Website using React, PHP, MySQL,...",
       ghLink: "https://github.com/buubuu203/apple-store-is207",
-      demoLink: "https://apple-store-steel.vercel.app/",
     },
     {
       imgPath: nikeWebsite,
@@ -56,6 +55,16 @@ function Projects() {
             </Col>
           ))}
         </Row>
+        <h1 className="project-heading">
+          All of my <strong className="purple">Projects </strong>
+        </h1>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://docs.google.com/spreadsheets/d/1COPKlBVoXYCJGSDGtn_sNdn6AkJThpPNo0kEzf3d310/edit?usp=sharing"
+        >
+          Click here
+        </a>
       </Container>
     </Container>
   );

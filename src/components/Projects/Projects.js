@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import appleStore from "../../assets/Projects/appleStore.png";
 import eliteFitness from "../../assets/Projects/eliteFitness.png";
 import paradise from "../../assets/Projects/paradise.png";

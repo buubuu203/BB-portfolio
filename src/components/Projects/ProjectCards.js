@@ -44,9 +44,13 @@ function ProjectCards(props) {
           <CgFigma /> &nbsp; Figma
         </Button>
         {"\n"}
-
         {props.viewMore ? (
-          <Button variant="primary" href={props.viewMore} target="_blank">
+          <Button
+            variant="primary"
+            href={props.viewMore}
+            target="_blank"
+            id="viewMore"
+          >
             View More
           </Button>
         ) : null}

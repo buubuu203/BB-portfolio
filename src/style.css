@@ -635,6 +635,9 @@ button:focus {
   .about-img {
     padding-top: 0 !important;
   }
+  #viewMore {
+    margin-top: 4px;
+  }
 }
 /* --------- */
 /* Resume */

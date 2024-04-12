@@ -1,26 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
+const arr = ["Marketing", "Sales", "BPMN", "CRM", "ERP", "SCM", "BDA"];
 function ECommerceSkill() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="ec-icons">
-        Marketing
-      </Col>
-      <Col xs={4} md={2} className="ec-icons">
-        Sale
-      </Col>
-      <Col xs={4} md={2} className="ec-icons">
-        BPMN
-      </Col>
-      <Col xs={4} md={2} className="ec-icons">
-        CRM
-      </Col>
-      <Col xs={4} md={2} className="ec-icons">
-        ERP
-      </Col>
+      {arr.map((item) => (
+        <Col xs={4} md={2} className="ec-icons">
+          {item}
+        </Col>
+      ))}
     </Row>
   );
 }
-
 export default ECommerceSkill;

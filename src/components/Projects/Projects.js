@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import appleStore from "../../assets/Projects/appleStore.png";
 import eliteFitness from "../../assets/Projects/eliteFitness.png";
-import nikeWebsite from "../../assets/Projects/nikeWebsite.png";
+import paradise from "../../assets/Projects/paradise.png";
 import Particle from "../Particle";
 import ProjectCard from "./ProjectCards";
 
@@ -16,8 +17,20 @@ function Projects() {
       description:
         "The project that take the 1st rank in Advanced Information Systems Contest 2023",
       ghLink: "https://github.com/thienenpi/EliteFitness",
+      figmaLink:
+        "https://www.figma.com/file/GIMlKe1e7WoQvL9tliZhXN/Elite-Fitness-v2.0?type=design&node-id=586%3A11276&mode=design&t=VqSYo4Os79xYtWWx-1",
       viewMore:
         "https://tuyensinh.uit.edu.vn/chung-ket-aisc-2023-giai-nhat-cuoc-thi-goi-ten-doi-double-kill-va-findy?fbclid=IwAR2ITwUFsuCOmMZqbZPUxFM83Kohud0wc5UGcve4oi8i5tqSAp050xiNV7Q",
+    },
+    {
+      imgPath: paradise,
+      isBlog: false,
+      title: "Paradise - Hotel Management Application",
+      description:
+        "A hotel management application for manager and staff to keep track of their hotel",
+      ghLink: "https://github.com/buubuu203/nike-website",
+      figmaLink:
+        "https://www.figma.com/file/0cIkD0nFPkkenffcfJDC0R/Paradise-v2.0?type=design&node-id=1724%3A3976&mode=design&t=2RQ0bIwD11wADviB-1",
     },
     {
       imgPath: appleStore,
@@ -26,15 +39,6 @@ function Projects() {
       description:
         "My project of IS207.O13 course at UIT, it's a fullstack E-Commerce Website using React, PHP, MySQL,...",
       ghLink: "https://github.com/buubuu203/apple-store-is207",
-    },
-    {
-      imgPath: nikeWebsite,
-      isBlog: false,
-      title: "Nike Website",
-      description:
-        "A basic website of Nike, built with the instruction from JSmastery",
-      ghLink: "https://github.com/buubuu203/nike-website",
-      demoLink: "https://nike-website-dusky.vercel.app/",
     },
   ];
 
@@ -55,16 +59,6 @@ function Projects() {
             </Col>
           ))}
         </Row>
-        <h1 className="project-heading">
-          All of my <strong className="purple">Projects </strong>
-        </h1>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://docs.google.com/spreadsheets/d/1COPKlBVoXYCJGSDGtn_sNdn6AkJThpPNo0kEzf3d310/edit?usp=sharing"
-        >
-          Click here
-        </a>
       </Container>
     </Container>
   );

@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Buu Dang</span>
+            Hi Everyone, I am <span className="purple">Buu Dang </span>
             from <span className="purple">UIT - VNU-HCM</span>
             <br /> I am a junior student whose major is E-Commerce.
             <br />
             Additionally, I am seeking for an intern position in Business
-            Analyst.
+            Analyst or Product Owner.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiCss3,
   DiGit,
@@ -9,18 +8,19 @@ import {
   DiMongodb,
   DiNodejs,
   DiPhp,
-  DiReact
+  DiPython,
+  DiReact,
 } from "react-icons/di";
-import { SiNextdotjs } from "react-icons/si";
+import { SiRstudio } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
@@ -35,7 +35,7 @@ function Techstack() {
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiRstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
